@@ -1,0 +1,91 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2021-10-16 16:20:48",
+    "containerVersion": {
+        "path": "accounts/6005080953/containers/53126964/versions/2",
+        "accountId": "6005080953",
+        "containerId": "53126964",
+        "containerVersionId": "2",
+        "name": "T1",
+        "container": {
+            "path": "accounts/6005080953/containers/53126964",
+            "accountId": "6005080953",
+            "containerId": "53126964",
+            "name": "Bot test",
+            "publicId": "GTM-5RDNCM7",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1634400714019",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6005080953/containers/53126964/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "6005080953",
+                "containerId": "53126964",
+                "tagId": "3",
+                "name": "Custom HTML",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<!-- Start of HubSpot Embed Code -->\n  <script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js-na1.hs-scripts.com/20873305.js\"></script>\n<!-- End of HubSpot Embed Code -->"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1634400761134",
+                "firingTriggerId": [
+                    "2147479553",
+                    "2147479572",
+                    "2147479573"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6005080953",
+                "containerId": "53126964",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "6005080953",
+                "containerId": "53126964",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "6005080953",
+                "containerId": "53126964",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "6005080953",
+                "containerId": "53126964",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "6005080953",
+                "containerId": "53126964",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "1634400776621",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6005080953/containers/53126964/versions/2?apiLink=version"
+    }
+}
